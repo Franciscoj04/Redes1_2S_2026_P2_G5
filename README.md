@@ -7,8 +7,8 @@
 | Nombre Completo | Carnet | Rol en el Proyecto |
 | :--- | :---: | :--- |
 | **Francisco Javier Cetino Mendez** *(Coordinador)* | `202006716` | Diseño de Arquitectura, Topología en Packet Tracer, Cálculo VLSM y Documentación |
-| *[Nombre Integrante 2]* | *[Carnet 2]* | Implementación de Switching, VLANs, VTP, Rapid PVST+, EtherChannel L2 y HSRP |
-| *[Nombre Integrante 3]* | *[Carnet 3]* | Implementación de Backbone Core, Enrutamiento (OSPF, EIGRP, RIPv2, Estático) y Redistribución |
+| **Victor Hugo Velasquez** | `202100054` | Implementación de Switching, VLANs, VTP, Rapid PVST+, EtherChannel L2 y HSRP |
+| **Allan Donaldo Xocop Tubac** | `202300629` | Implementación de Backbone Core, Enrutamiento (OSPF, EIGRP, RIPv2, Estático) y Redistribución |
 
 ---
 
@@ -386,13 +386,16 @@ router rip
 ![Topología General](img/topologiaGeneral.png)
 
 ### 7.2 Tablas de Enrutamiento (`show ip route`) y Redistribución Exitosa
-![Tablas de Enrutamiento](img/show_ip_route.png)
+<img src="./img/R-Central1.png" width="70%">
+<img src="./img/R-Core3.png" width="70%">
+<img src="./img/SW-Core2.png" width="70%">
 
 ### 7.3 Pruebas de Conectividad Extremo a Extremo (`ping` entre Sedes y Inter-VLAN)
-![Pruebas de Ping](img/ping_extremo.png)
+<img src="./img/Test1.png" width="100%">
+<img src="./img/Test2.png" width="100%">
 
 ### 7.4 Prueba de Conmutación por Error HSRP en Sede Oriente (Caída de `MS1` y Respaldo en `MS2`)
-![Failover HSRP](img/failover_hsrp.png)
+<img src="./img/hsrp.png" width="80%">
 
 ### 7.5 Prueba de Redundancia Rapid PVST+ en Sede Norte (Corte de Enlace en el Anillo)
 ![Failover STP](img/failover_stp.png)
